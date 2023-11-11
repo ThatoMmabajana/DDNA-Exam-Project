@@ -78,8 +78,9 @@ h1{
   margin: 10px auto;
   background-size: cover;
 }
-
-
+#weather-description{
+text-transform:capitalize;
+}
 
 .logo a:hover{
   color: var(--second-color);

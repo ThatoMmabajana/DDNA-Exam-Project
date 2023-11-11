@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>BBD PORTFOLIO PROJECT</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="nav-toggle">
+        <div class="logo"><a href="#">Hello World!</a></div>
+        <ul class="links">
+            <li><a href="#Home" class="active">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="Weather-Forecast/weather.html"  >Weather Forecast</a></li>
+        </ul>
+        <label for="nav-toggle" class="toggleBar">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+
+        </label>
+    </nav>
+    <section class="home">
+        <div class="home_content">
+            <h1>I am  Mmabajana Tshego</h1>
+            <h3>Software Developer</h3>
+            <a href="#Contact" class="btn">Contact Me</a>
+            <div class="socials">
+                <a href="https://www.instagram.com/" target="_blank" class="social_icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100074022000949" target="_blank" class="social_icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" class="social_icon"><i class='bx bxl-linkedin-square'></i></a>
+              </div>
+           
+        </div>
+
+
+        <div class="home_img">
+            <img src="IMAGE/web img.png" alt="Self image">
+        </div>
+    </section>
+    
+    <section class="About-Me" id="About">
+        <h2 class="about-me">About Me</h2>
+        <div class="aboutMe">
+            
+    
+                 <div class="about_para">
+                    <p>"I am simply a passionate and curious software developer,dedicated to creating efficient,user-friendly and rubust solutions.With a keen eye for problem-solving and  a love for technology.I specialize in web development.Feel free to  explore my portfolio to discover projects and skills that proves my journey as a developer."</p>
+                 </div>
+            
+        </div>
+        
+    </section>
+    
+    <section class="services" id="Services">
+        <h2 class="services-heading">Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <img src="IMAGE/webdev2 (1).jpg" alt="Software 1">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis dolores reiciendis.
+                    <button class="read-more-btn">Read More</button>
+                </p>
+            </div>
+            <div class="service-box">
+                <img src="IMAGE/mobileApp.jpg" alt="Software 2">
+                <h3>Mobile App Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis dolores reiciendis.
+                </p>
+                <button class="read-more-btn">Read More</button>
+            </div>
+            <div class="service-box">
+                <img src="IMAGE/solutions.jpg" alt="Software 3">
+                <h3>Software Solutions</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis dolores reiciendis.
+                </p>
+                <button class="read-more-btn">Read More</button>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+    
+    <section class="contact_form" id="Contact">
+        <h2 class="contact_heading">Contact</h2>
+        <div class="container">
+        
+            <div class="right">
+                <form action="#">
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <textarea name="message" id="message"  rows="10" placeholder="Message"></textarea>
+                    <div class="submit">
+                        <button type="submit" class="submit-btn">
+                            Send
+                        </button>
+                    </div>
+                        <!-- <input type="submit" class="submit-btn" value="Send"> --> 
+                </form>
+            </div>
+            
+        <div class="left">
+            <a href="Google-Map/GoogleMap.html" class="marker-link">
+                <i class='bx bxs-map-pin marker-icon'></i>
+            </a>
+            <div class="marker-description">
+                <p>Click to locate yourself</p>
+            </div>
+        </div>
+        
+      
+    </section>
+
+    <script src="script/PP.js"></script>
+    
+    
+</body>
+</html>

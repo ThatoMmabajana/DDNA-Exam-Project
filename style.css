@@ -458,6 +458,25 @@ nav .toggleBar .bar{
   
 }
 
+@media  (max-width: 376px) {
+   
+    
+    .home {
+      grid-template-columns: 1fr; 
+      margin:auto;
+    }
+  
+    .home_content {
+      padding: 20px; 
+    }
+  
+    .home_img img {
+      margin-top: 5vh; 
+    }
+
+    
+  }
+
 .about-me-container {
   max-width: 600px;
   margin: 50px auto;

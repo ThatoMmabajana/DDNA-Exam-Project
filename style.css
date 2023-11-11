@@ -20,7 +20,6 @@ body{
   --bg-color:#25dfbe ;
   --second-bg-color:#ff64a7 ;
   --text-color: #fff ;
-  --second-text-color: white ;
   --heading-one: #1ef7ec ;
 --button-color: #61a3a0 ;
  
@@ -383,13 +382,7 @@ nav .toggleBar .bar{
 }
 
 
-
-
-
-
-
-
-
+/*Media queries  */
 
 @media (max-width: 940px) {
   nav{
@@ -473,7 +466,26 @@ nav .toggleBar .bar{
     .home_img img {
       margin-top: 5vh; 
     }
+    .form_input input,
+  .form_input textarea {
+    width: calc(100% - 8px); 
+    padding: 6px; 
+  }
 
+  .submit-btn {
+    padding: 6px 16px; 
+  }
+
+  .marker-icon {
+    font-size: 40px; 
+    margin-top: 30px; 
+  }
+
+  .marker-icon:hover::after {
+    top: -15px; 
+    font-size: 8px; 
+    line-height: 1.2em;
+  }
     
   }
 

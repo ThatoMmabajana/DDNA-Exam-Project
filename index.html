@@ -12,7 +12,7 @@
 <body>
     <nav>
         <input type="checkbox" id="nav-toggle">
-        <div class="logo"><a href="#">Hello World!</a></div>
+        <div class="logo"><a href="#">Hello World</a></div>
         <ul class="links">
             <li><a href="#Home" class="active">Home</a></li>
             <li><a href="#About">About</a></li>
@@ -30,98 +30,96 @@
 
         </label>
     </nav>
-    <section class="home">
+
+    <section id="Home" class="home">
         <div class="home_content">
-            <h1>I am  Mmabajana Tshego</h1>
+            <h1>I am Thato&#95Mmabajana</h1>
             <h3>Software Developer</h3>
             <a href="#Contact" class="btn">Contact Me</a>
             <div class="socials">
                 <a href="https://www.instagram.com/" target="_blank" class="social_icon"><i class='bx bxl-instagram'></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100074022000949" target="_blank" class="social_icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100074022000949" target="_blank" class="social_icon"><i class='bx bxl-facebook'></i></a>
                 <a href="https://www.linkedin.com/feed/" target="_blank" class="social_icon"><i class='bx bxl-linkedin-square'></i></a>
-              </div>
-           
+            </div>
         </div>
-
 
         <div class="home_img">
             <img src="IMAGE/web img.png" alt="Self image">
         </div>
     </section>
-    
-    <section class="About-Me" id="About">
-        <h2 class="about-me">About Me</h2>
-        <div class="aboutMe">
-            
-    
-                 <div class="about_para">
-                    <p>"I am simply a passionate and curious software developer,dedicated to creating efficient,user-friendly and rubust solutions.With a keen eye for problem-solving and  a love for technology.I specialize in web development.Feel free to  explore my portfolio to discover projects and skills that proves my journey as a developer."</p>
-                 </div>
-            
+
+
+
+    <div class="about-me-container">
+        <h1>About Me</h1>
+        <h2>Software Developer!</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nihil labore perferendis modi tenetur quos porro corporis deleniti ea non nesciunt atque, consequuntur quo maiores incidunt doloribus ratione odio repellendus culpa fugiat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="read-more-btn">
+            <a href="#">Read More</a>
         </div>
-        
-    </section>
-    
+    </div>
+
+
     <section class="services" id="Services">
         <h2 class="services-heading">Services</h2>
         <div class="service-container">
             <div class="service-box">
                 <img src="IMAGE/webdev2 (1).jpg" alt="Software 1">
                 <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis dolores reiciendis.
-                    <button class="read-more-btn">Read More</button>
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis dolores reiciendis.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="read-more-btn">Read More</button>
             </div>
             <div class="service-box">
                 <img src="IMAGE/mobileApp.jpg" alt="Software 2">
                 <h3>Mobile App Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis dolores reiciendis.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis dolores reiciendis.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <button class="read-more-btn">Read More</button>
             </div>
             <div class="service-box">
                 <img src="IMAGE/solutions.jpg" alt="Software 3">
                 <h3>Software Solutions</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis dolores reiciendis.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis dolores reiciendis.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <button class="read-more-btn">Read More</button>
             </div>
         </div>
-        
     </section>
 
-
-
-    
     <section class="contact_form" id="Contact">
         <h2 class="contact_heading">Contact</h2>
-        <div class="container">
-        
-            <div class="right">
+        <div class="contact_container">
+            <div class="form_container">
                 <form action="#">
-                    <input type="text" name="fullname" id="fullname" placeholder="Full Name">
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <textarea name="message" id="message"  rows="10" placeholder="Message"></textarea>
-                    <div class="submit">
+                    <div class="form_input">
+                        <input type="text" name="fullname" id="fullname" placeholder="Full  Name" required>
+                    </div>
+                    <div class="form_input">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form_input">
+                        <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form_input submit">
                         <button type="submit" class="submit-btn">
                             Send
                         </button>
                     </div>
-                        <!-- <input type="submit" class="submit-btn" value="Send"> --> 
                 </form>
             </div>
-            
-        <div class="left">
-            <a href="Google-Map/GoogleMap.html" class="marker-link">
-                <i class='bx bxs-map-pin marker-icon'></i>
-            </a>
-            <div class="marker-description">
-                <p>Click to locate yourself</p>
+            <div class="map_container">
+                <a href="Google-Map/GoogleMap.html" class="marker-link">
+                    <i class='bx bxs-map-pin marker-icon'></i>
+                </a>
+                <div class="marker-description">
+                    <p>Click to locate yourself</p>
+                </div>
             </div>
         </div>
-        
-      
     </section>
+
+
+    
 
     <script src="script/PP.js"></script>
     

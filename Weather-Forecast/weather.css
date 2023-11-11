@@ -79,7 +79,7 @@ h1{
   background-size: cover;
 }
 #weather-description{
-text-transform:capitalize;
+  text-transform: capitalize;
 }
 
 .logo a:hover{

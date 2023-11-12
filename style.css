@@ -121,14 +121,16 @@ nav .toggleBar .bar{
 
 .home {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-columns: 1fr 1fr; 
   gap: 20px;
   align-items: center;
 }
 .home_content {
   background-color: #f2f2f2;
-  padding: 40px; /* Reduce padding */
+  padding: 40px; 
   text-align: center;
+  animation: slideTop 1s ease forwards;
+  
 }
 
 .home_content h1 {
@@ -445,7 +447,7 @@ nav .toggleBar .bar{
   }
 
   .home_content {
-    padding: 20px;
+    padding: 45px 20px 20px 20px;
  
   }
 
@@ -470,7 +472,7 @@ nav .toggleBar .bar{
     }
   
     .home_content {
-      padding: 20px; 
+      padding: 45px 20px 20px 20px; 
     }
   
     .home_img img {
@@ -497,6 +499,37 @@ nav .toggleBar .bar{
     line-height: 1.2em;
   }
     
+  }
+
+ @media (max-width:426px){
+    .home {
+      grid-template-columns: 1fr; 
+      margin:auto;
+    }
+  
+    .home_content {
+      padding: 45px  20px 20px 20px; 
+    }
+  
+    .home_img img {
+      
+      margin-top: 5vh; 
+    }
+    .submit-btn {
+      background-color: var(--button-color);
+      color: var(--second-text-color);
+      font-weight: 600;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .submit-btn:hover {
+      background-color: var(--button-hover);
+    }
+
   }
 
 .about-me-container {

@@ -530,54 +530,6 @@ p {
 
 /*  Media queries*/
 
-@media screen and (min-width: 1023px) {
-  
-  nav .logo {
-    width: 30%; 
-    padding: 0 5%; 
-  }
-
-  nav .links {
-    width: 70%; 
-  }
-
-  
-  .home {
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-
-  .home_content {
-    padding: 40px;
-  }
-
-  .home_img img {
-    width: 100%; 
-    border-radius: 8px;
-    margin-top: 0; 
-  }
-
-
-  .about-me-container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-
-  .service-container {
-    gap: 15px;
-  }
-
-  .service-box {
-    padding: 20px;
-  }
-
-  .service-box img {
-    margin-bottom: 15px;
-  }
-
-
-}
 
 
 

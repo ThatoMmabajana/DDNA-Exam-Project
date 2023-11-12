@@ -6,7 +6,7 @@ function displaySocialsAlert(){
   alert("Explore my Social Media Profiles!")
 };
 
-function showUnderDevelopment(){
+function showUnderDevelopmentAlert(){
   alert("This Section is under development.Please explore my social media profiles instead.")
 };
 

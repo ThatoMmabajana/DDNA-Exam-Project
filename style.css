@@ -20,7 +20,7 @@ body{
   --bg-color:#25dfbe ;
   --second-bg-color:#ff64a7 ;
   --text-color: #fff ;
-  --second-text-color:white;
+  --second-text-color: white ;
   --heading-one: #1ef7ec ;
 --button-color: #61a3a0 ;
  
@@ -124,13 +124,12 @@ nav .toggleBar .bar{
   grid-template-columns: 1fr 1fr; 
   gap: 20px;
   align-items: center;
+  animation: slideTop 1s ease forwards;
 }
 .home_content {
   background-color: #f2f2f2;
   padding: 40px; 
   text-align: center;
-  animation: slideTop 1s ease forwards;
-  
 }
 
 .home_content h1 {
@@ -288,6 +287,9 @@ nav .toggleBar .bar{
 
 /* services */
 
+
+ 
+
 .services {
   background-color: #f2f2f2;
   padding: 50px 0;
@@ -350,23 +352,23 @@ nav .toggleBar .bar{
 }
 
 .marker-icon {
-  font-size: 15px; /* Adjust the size as needed */
-  color:var(--button-hover); /* Adjust the color as needed */
-  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  font-size: 15px; 
+  color:var(--button-hover);
+  transition: transform 0.3s ease-in-out;
 }
 
 .marker-link:hover .marker-icon {
-  transform: scale(1.2); /* Adjust the scale factor for the hover effect */
+  transform: scale(1.2); 
 }
 
 
 
 .marker-description  {
   position: absolute;
-  top: calc(100% + 8px); /* Adjust the distance from the marker icon */
+  top: calc(100% + 8px); 
   left: 50%;
   transform: translateX(-50%);
-  background-color: #4b4dc3; /* Set the background color to #4b4dc3 */
+  background-color: #4b4dc3; 
   color:#4b4dc3; 
   padding: 8px;
   border-radius: 4px;
@@ -382,7 +384,13 @@ nav .toggleBar .bar{
 }
 
 
-/*Media queries  */
+
+
+
+
+
+
+
 
 @media (max-width: 940px) {
   nav{
@@ -438,6 +446,8 @@ nav .toggleBar .bar{
 
 
 @media (max-width: 768px) {
+  
+  
   .home {
     grid-template-columns: 1fr; 
     margin:auto;
@@ -459,75 +469,6 @@ nav .toggleBar .bar{
   }
   
 }
-
-@media  (max-width: 376px) {
-   
-    
-    .home {
-      grid-template-columns: 1fr; 
-      margin:auto;
-    }
-  
-    .home_content {
-      padding: 45px 20px 20px 20px; 
-    }
-  
-    .home_img img {
-      margin-top: 5vh; 
-    }
-    .form_input input,
-  .form_input textarea {
-    width: calc(100% - 8px); 
-    padding: 6px; 
-  }
-
-  .submit-btn {
-    padding: 6px 16px; 
-  }
-
-  .marker-icon {
-    font-size: 40px; 
-    margin-top: 30px; 
-  }
-
-  .marker-icon:hover::after {
-    top: -15px; 
-    font-size: 8px; 
-    line-height: 1.2em;
-  }
-    
-  }
-
- @media (max-width:426px){
-    .home {
-      grid-template-columns: 1fr; 
-      margin:auto;
-    }
-  
-    .home_content {
-      padding: 45px  20px 20px 20px; 
-    }
-  
-    .home_img img {
-      
-      margin-top: 5vh; 
-    }
-    .submit-btn {
-      background-color: var(--button-color);
-      color: var(--second-text-color);
-      font-weight: 600;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    
-    .submit-btn:hover {
-      background-color: var(--button-hover);
-    }
-
-  }
 
 .about-me-container {
   max-width: 600px;
@@ -671,3 +612,82 @@ p {
 }
 
 
+
+  @media  (max-width: 376px) {
+   
+    
+    .home {
+      grid-template-columns: 1fr; 
+      margin:auto;
+    }
+  
+    .home_content {
+      padding: 45px 20px 20px 20px; 
+    }
+  
+    .home_img img {
+      
+      margin-top: 5vh; 
+    }
+
+
+    .form_input input,
+  .form_input textarea {
+    width: calc(100% - 8px); 
+    padding: 6px; 
+  }
+
+  .submit-btn {
+    padding: 6px 16px; 
+  }
+
+  .marker-icon {
+    font-size: 40px; 
+    margin-top: 30px; 
+  }
+
+  .marker-icon:hover::after {
+    top: -15px; 
+    font-size: 8px; 
+    line-height: 1.2em;
+  }
+
+  }
+  
+  @media (max-width:426px){
+    .home {
+      grid-template-columns: 1fr; 
+      margin:auto;
+   
+    }
+  
+    .home_content {
+      padding: 45px  20px 20px 20px; 
+    }
+  
+    .home_img img {
+      
+      margin-top: 5vh; 
+    }
+    .submit-btn {
+      background-color: var(--button-color);
+      color: var(--second-text-color);
+      font-weight: 600;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .submit-btn:hover {
+      background-color: var(--button-hover);
+    }
+
+  }
+
+
+   
+
+
+  

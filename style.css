@@ -153,6 +153,10 @@ nav .toggleBar .bar{
   transition: background-color 0.3s ease;
   margin-top: 16px; 
 }
+.btn:hover {
+  background-color: var(--button-hover);
+}
+  
 
 
 .home_img img {
@@ -315,7 +319,7 @@ nav .toggleBar .bar{
   transition: background-color 0.3s ease;
 }
 
-.read-more-btn:hover,.btn:hover {
+.read-more-btn:hover{
   background-color: var(--button-hover);
 }
 

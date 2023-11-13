@@ -614,13 +614,27 @@ p {
   
   }
   
-    .contact_form{
-      display: flex;
-      flex-direction:column;
-    }
-    .contact_container{
-      margin-bottom:10px;
-    }
+    
+
+
+  .contact_container {
+    grid-template-columns: 1fr; 
+  }
+
+  .marker-icon {
+    margin-top: 20px; 
+  }
+
+  .form_input input,
+  .form_input textarea {
+    width: 100%; 
+  }
+
+  .submit-btn {
+    padding: 10px 30px; 
+  }
+}
+
 }
 
 
@@ -640,13 +654,6 @@ p {
     .home_img img {
       
       margin-top: 5vh; 
-    }
-    .contact_form{
-      display: flex;
-      flex-direction:column;
-    }
-    .contact_container{
-      margin-bottom:10px;
     }
 
     .form_input input,
@@ -703,13 +710,7 @@ p {
     }
     
     
-.contact_form{
-      display: flex;
-      flex-direction:column;
-    }
-    .contact_container{
-      margin-bottom:10px;
-    }
+
   }
 
 

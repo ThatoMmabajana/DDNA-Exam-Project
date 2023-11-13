@@ -656,7 +656,25 @@ p {
       margin-top: 5vh; 
     }
 
-    .form_input input,
+    
+  .contact_container {
+    grid-template-columns: 1fr; 
+  }
+
+  .marker-icon {
+    margin-top: 20px; 
+  }
+
+  .form_input input,
+  .form_input textarea {
+    width: 100%; 
+  }
+
+  .submit-btn {
+    padding: 10px 30px;
+  }
+
+   /* .form_input input,
   .form_input textarea {
     width: calc(100% - 8px); 
     padding: 6px; 
@@ -675,7 +693,7 @@ p {
     top: -15px; 
     font-size: 8px; 
     line-height: 1.2em;
-  }
+  }*/
 
   }
   
@@ -710,6 +728,22 @@ p {
     }
     
     
+  .contact_container {
+    grid-template-columns: 1fr; 
+  }
+
+  .marker-icon {
+    margin-top: 20px; 
+  }
+
+  .form_input input,
+  .form_input textarea {
+    width: 100%; 
+  }
+
+  .submit-btn {
+    padding: 10px 30px;
+  }
 
   }
 

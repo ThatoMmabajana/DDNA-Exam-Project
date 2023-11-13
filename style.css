@@ -614,6 +614,13 @@ p {
   
   }
   
+    .contact_form{
+      grid-template-columns:1fr;
+      margin:auto;
+    }
+    .contact_container{
+      margin-bottom:10px;
+    }
 }
 
 
@@ -635,6 +642,13 @@ p {
       margin-top: 5vh; 
     }
 
+    .contact_form{
+      grid-template-columns:1fr;
+      margin:auto;
+    }
+    .contact_container{
+      margin-bottom:10px;
+    }
 
     .form_input input,
   .form_input textarea {
@@ -687,6 +701,14 @@ p {
     
     .submit-btn:hover {
       background-color: var(--button-hover);
+    }
+    
+    .contact_form{
+      grid-template-columns:1fr;
+      margin:auto;
+    }
+    .contact_container{
+      margin-bottom:10px;
     }
 
   }

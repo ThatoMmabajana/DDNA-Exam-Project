@@ -106,7 +106,6 @@ nav .toggleBar{
   right: 5%;
   transform: translateY(-50%);
   color: #fff;
-  /* color: blue; */
   cursor: pointer;
 }
 nav .toggleBar .bar{
@@ -155,7 +154,7 @@ nav .toggleBar .bar{
   margin-top: 16px; 
 }
 
-.socials {
+/*.socials {
   margin-top: 16px; 
 }
 
@@ -170,19 +169,13 @@ nav .toggleBar .bar{
 
 .social_icon:hover {
   box-shadow: 0 0 10px rgba(75, 77, 195, 0.7);
-}
+}*/
 
 .home_img img {
   width: 80%;
   border-radius: 8px;
   margin-top: 10vh; 
 }
-
-
-
-
-
-
 
 
 
@@ -673,27 +666,6 @@ p {
   .submit-btn {
     padding: 10px 30px;
   }
-
-   /* .form_input input,
-  .form_input textarea {
-    width: calc(100% - 8px); 
-    padding: 6px; 
-  }
-
-  .submit-btn {
-    padding: 6px 16px; 
-  }
-
-  .marker-icon {
-    font-size: 40px; 
-    margin-top: 30px; 
-  }
-
-  .marker-icon:hover::after {
-    top: -15px; 
-    font-size: 8px; 
-    line-height: 1.2em;
-  }*/
 
   }
   

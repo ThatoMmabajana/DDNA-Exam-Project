@@ -154,22 +154,6 @@ nav .toggleBar .bar{
   margin-top: 16px; 
 }
 
-/*.socials {
-  margin-top: 16px; 
-}
-
-
-
-.social_icon {
-  color: var(--second-text-color);
-  font-size: 24px;
-  margin-right: 12px;
-  transition: box-shadow 0.3s ease; 
-}
-
-.social_icon:hover {
-  box-shadow: 0 0 10px rgba(75, 77, 195, 0.7);
-}*/
 
 .home_img img {
   width: 80%;
@@ -180,7 +164,7 @@ nav .toggleBar .bar{
 
 
 
-/* New social icons css */
+/*  social icons  */
 .socials {
   display: flex;
   justify-content: center;

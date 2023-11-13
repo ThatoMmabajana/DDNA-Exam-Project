@@ -615,8 +615,8 @@ p {
   }
   
     .contact_form{
-      grid-template-columns:1fr;
-      margin:auto;
+      display: flex;
+      flex-direction:column;
     }
     .contact_container{
       margin-bottom:10px;
@@ -641,10 +641,9 @@ p {
       
       margin-top: 5vh; 
     }
-
     .contact_form{
-      grid-template-columns:1fr;
-      margin:auto;
+      display: flex;
+      flex-direction:column;
     }
     .contact_container{
       margin-bottom:10px;
@@ -703,14 +702,14 @@ p {
       background-color: var(--button-hover);
     }
     
-    .contact_form{
-      grid-template-columns:1fr;
-      margin:auto;
+    
+.contact_form{
+      display: flex;
+      flex-direction:column;
     }
     .contact_container{
       margin-bottom:10px;
     }
-
   }
 
 

@@ -65,6 +65,7 @@ nav .links{
 
 nav .links li{
   list-style: none;
+  margin-left:30px;
   padding: 10px 20px;
 }
 nav .links li:hover {

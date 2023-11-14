@@ -41,7 +41,7 @@ nav .logo{
   width: 40%;
   height: 100%;
   display: flex;
-  padding: 0 10%;
+  padding-left:35px;
   align-items: center;
   font-size: 20px;
   animation: slideTop 1s ease forwards;

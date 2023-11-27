@@ -1,28 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family#poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
-  
+
+
+body{
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: 'Poppins',sans-serif;
   margin: 0;
   padding: 0;
-  
-}
-
-body{
-  background-color: #f2f2f2;
+  background-color:var(--background-main-color);
 }
 :root{
-  --background-main-color:#fff;
+  --background-main-color:#f2f2f2;
 --nav-background-color: #9799ee;
 --button-hover: #4b4dc3;
   --bg-color:#25dfbe ;
   --second-bg-color:#ff64a7 ;
   --text-color: #fff ;
-  --second-text-color: white ;
-  --heading-one: #1ef7ec ;
---button-color: #61a3a0 ;
  
 }
 nav{
@@ -80,7 +74,7 @@ nav .links a{
   display: block;
   padding: 10px;
   font-weight: bold;
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   text-transform: capitalize;
   transition: all .4s ease-in-out;
@@ -133,7 +127,7 @@ nav .toggleBar .bar{
 }
 
 .home_content h1 {
-  color: var(--heading-one);
+  color: var(--bg-color);
   margin-top:50px;
   margin-bottom: 7px; 
 }
@@ -146,7 +140,7 @@ nav .toggleBar .bar{
 .btn {
   display: inline-block;
   background-color: var(--button-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -198,7 +192,7 @@ nav .toggleBar .bar{
 
   transform: translateY(-4px);
   box-shadow: 0 6px 10px rgba(75, 0, 130, 0.2);
-  color:var(--button-hover);
+/*   color:var(--button-hover); */
 }
 
 
@@ -273,13 +267,13 @@ nav .toggleBar .bar{
  
 
 .services {
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
   padding: 50px 0;
   text-align: center;
 }
 
 .services-heading {
-  color: var(--heading-one);
+  color: var(--bg-color);
 }
 .service-box h3{
   color:var(--second-bg-color);
@@ -312,7 +306,7 @@ nav .toggleBar .bar{
 .read-more-btn {
   display: inline-block;
   background-color: var(--button-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   padding: 8px 15px;
   border: none;
   border-radius: 5px;
@@ -320,9 +314,9 @@ nav .toggleBar .bar{
   transition: background-color 0.3s ease;
 }
 
-.read-more-btn:hover{
+/* .read-more-btn:hover{
   background-color: var(--button-hover);
-}
+} */
 
 
 
@@ -408,15 +402,15 @@ p {
 .read-more-btn a {
   text-decoration: none;
   background-color: var(--button-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   padding: 10px 20px;
   border-radius: 5px;
   
 }
 
-.read-more-btn a:hover {
+/* .read-more-btn a:hover {
   background-color: var(--button-hover);
-}
+} */
 
 
 
@@ -431,7 +425,7 @@ p {
 
 .contact_heading {
   margin-bottom: 50px;
-  color: var(--heading-one);
+  color: var(--bg-color);
 }
 
 .contact_container {
@@ -442,7 +436,7 @@ p {
 
 .form_container,
 .map_container {
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
   padding: 20px;
   border-radius: 8px;
 }
@@ -467,7 +461,7 @@ p {
 }
 .submit-btn {
   background-color: var(--button-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   font-weight: 600;
   padding: 10px 90px;
   border: none;
@@ -497,7 +491,7 @@ p {
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--bg-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   font-weight:bold;
   padding: 5px;
   border-radius: 5px;
@@ -675,7 +669,7 @@ p {
     }
     .submit-btn {
       background-color: var(--button-color);
-      color: var(--second-text-color);
+      color: var(--text-color);
       font-weight: 600;
       padding: 10px 20px;
       border: none;

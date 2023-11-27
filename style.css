@@ -111,7 +111,7 @@ nav .toggleBar{
 nav .toggleBar .bar{
   width: 25px;
   height: 3px;
-  background: var(--button-color);
+  background: var(--bg-color);
   margin: 5px;
   border-radius: 10px;
   transition: all .3s ease-in-out;
@@ -134,7 +134,7 @@ nav .toggleBar .bar{
 }
 
 .home_content h1 {
-  color: var(--heading-one);
+  color: var(--bg-color);
   margin-top:50px;
   margin-bottom: 7px; 
 }

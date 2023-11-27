@@ -417,6 +417,15 @@ nav .toggleBar .bar{
     margin-left:30px;
   
   }
+
+   .service-container {
+    grid-template-columns: 1fr ; 
+  }
+
+  .service-box {
+    grid-column: span 1; 
+    margin-bottom: 20px; 
+  }
   
 }
 

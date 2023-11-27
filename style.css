@@ -71,7 +71,7 @@ nav .links li{
 nav .links li:hover {
   border: none;
   border-radius: 4px;
-  background: #a2ccca;
+  background: var(--big-color);
   color: #fff; 
 }
 
@@ -298,7 +298,7 @@ nav .toggleBar .bar{
 }
 
 .services-heading {
-  color: var(--heading-one);
+  color: var(--bg-color);
 }
 .service-box h3{
   color:var(--second-bg-color);
@@ -330,7 +330,7 @@ nav .toggleBar .bar{
 }
 .read-more-btn {
   display: inline-block;
-  background-color: var(--button-color);
+  background-color: var(--bg-color);
   color: var(--second-text-color);
   padding: 8px 15px;
   border: none;
@@ -339,9 +339,9 @@ nav .toggleBar .bar{
   transition: background-color 0.3s ease;
 }
 
-.read-more-btn:hover {
+/*.read-more-btn:hover {
   background-color: var(--button-hover);
-}
+}*/
 
 
 
@@ -467,16 +467,16 @@ p {
 
 .read-more-btn a {
   text-decoration: none;
-  background-color: var(--button-color);
+  background-color: var(--bg-color);
   color: var(--second-text-color);
   padding: 10px 20px;
   border-radius: 5px;
   
 }
 
-.read-more-btn a:hover {
+/*.read-more-btn a:hover {
   background-color: var(--button-hover);
-}
+}*/
 
 
 
@@ -491,7 +491,7 @@ p {
 
 .contact_heading {
   margin-bottom: 50px;
-  color: var(--heading-one);
+  color: var(--bg-color);
 }
 
 .contact_container {

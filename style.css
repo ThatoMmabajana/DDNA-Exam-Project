@@ -714,6 +714,9 @@ p {
   
 } */
 
+*{
+  background-color:var(--background-main-color);
+}
 body{
   box-sizing: border-box;
   scroll-behavior: smooth;

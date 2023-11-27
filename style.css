@@ -105,7 +105,7 @@ nav .toggleBar{
   top: 50%;
   right: 5%;
   transform: translateY(-50%);
-  color: #fff;
+  color: var(--text-color);
   cursor: pointer;
 }
 nav .toggleBar .bar{
@@ -126,7 +126,7 @@ nav .toggleBar .bar{
   animation: slideTop 1s ease forwards;
 }
 .home_content {
-  background-color: #f2f2f2;
+  background-color:var(--background-main-color;
   padding: 40px; 
   
   text-align: center;
@@ -134,7 +134,7 @@ nav .toggleBar .bar{
 }
 
 .home_content h1 {
-  color: var(--heading-one);
+  color: var(--bg-color);
   margin-top:50px;
   margin-bottom: 7px; 
 }
@@ -147,7 +147,7 @@ nav .toggleBar .bar{
 .btn {
   display: inline-block;
   background-color: var(--button-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -163,7 +163,7 @@ nav .toggleBar .bar{
 
 
 .social_icon {
-  color: var(--second-text-color);
+  color: var(--text-color);
   font-size: 24px;
   margin-right: 12px;
   transition: box-shadow 0.3s ease; 
@@ -292,13 +292,13 @@ nav .toggleBar .bar{
  
 
 .services {
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
   padding: 50px 0;
   text-align: center;
 }
 
 .services-heading {
-  color: var(--heading-one);
+  color: var(--bg-color);
 }
 .service-box h3{
   color:var(--second-bg-color);
@@ -312,7 +312,7 @@ nav .toggleBar .bar{
 }
 
 .service-box {
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -331,7 +331,7 @@ nav .toggleBar .bar{
 .read-more-btn {
   display: inline-block;
   background-color: var(--button-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   padding: 8px 15px;
   border: none;
   border-radius: 5px;
@@ -339,9 +339,9 @@ nav .toggleBar .bar{
   transition: background-color 0.3s ease;
 }
 
-.read-more-btn:hover {
+/*.read-more-btn:hover {
   background-color: var(--button-hover);
-}
+}*/
 
 
 
@@ -423,7 +423,7 @@ nav .toggleBar .bar{
 .about-me-container {
   max-width: 600px;
   margin: 50px auto;
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
   line-height: 1.8em;
   padding: 20px;
   border-radius: 8px;
@@ -431,7 +431,7 @@ nav .toggleBar .bar{
 }
 
 h1 {
-  color: var(--heading-one);
+  color: var(--bg-color);
   text-align: center;
   margin-bottom:30px;
 }
@@ -459,15 +459,15 @@ p {
 .read-more-btn a {
   text-decoration: none;
   background-color: var(--button-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   padding: 10px 20px;
   border-radius: 5px;
   
 }
 
-.read-more-btn a:hover {
+/*.read-more-btn a:hover {
   background-color: var(--button-hover);
-}
+}*/
 
 
 
@@ -482,7 +482,7 @@ p {
 
 .contact_heading {
   margin-bottom: 50px;
-  color: var(--heading-one);
+  color: var(--bg-color);
 }
 
 .contact_container {
@@ -493,7 +493,7 @@ p {
 
 .form_container,
 .map_container {
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
   padding: 20px;
   border-radius: 8px;
 }
@@ -518,7 +518,7 @@ p {
 }
 .submit-btn {
   background-color: var(--button-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   font-weight: 600;
   padding: 10px 90px;
   border: none;
@@ -548,7 +548,7 @@ p {
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--bg-color);
-  color: var(--second-text-color);
+  color: var(--text-color);
   font-weight:bold;
   padding: 5px;
   border-radius: 5px;
@@ -620,8 +620,8 @@ p {
       margin-top: 5vh; 
     }
     .submit-btn {
-      background-color: var(--button-color);
-      color: var(--second-text-color);
+      background-color: var(--bg-color);
+      color: var(--text-color);
       font-weight: 600;
       padding: 10px 20px;
       border: none;
@@ -630,9 +630,9 @@ p {
       transition: background-color 0.3s ease;
     }
     
-    .submit-btn:hover {
+    /*.submit-btn:hover {
       background-color: var(--button-hover);
-    }
+    }*/
 
   }
 

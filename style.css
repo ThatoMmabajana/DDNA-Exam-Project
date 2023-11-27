@@ -374,7 +374,7 @@ nav .toggleBar .bar{
 }
 
 h1 {
-  color: var(--heading-one);
+  color: var(--bg-color);
   text-align: center;
   margin-bottom:30px;
 }

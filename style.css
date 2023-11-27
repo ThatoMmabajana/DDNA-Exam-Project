@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family#poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
+/* *{
   
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -8,21 +8,24 @@
   margin: 0;
   padding: 0;
   
-}
+} */
 
 body{
-  background-color: #f2f2f2;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Poppins',sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:var(--background-main-color);
 }
 :root{
-  --background-main-color:#fff;
+  --background-main-color:#f2f2f2;
 --nav-background-color: #9799ee;
 --button-hover: #4b4dc3;
   --bg-color:#25dfbe ;
   --second-bg-color:#ff64a7 ;
   --text-color: #fff ;
-  --second-text-color: white ;
-  --heading-one: #1ef7ec ;
---button-color: #61a3a0 ;
+  
  
 }
 nav{
@@ -71,8 +74,8 @@ nav .links li{
 nav .links li:hover {
   border: none;
   border-radius: 4px;
-  background: #a2ccca;
-  color:var(--text-color); 
+  background:var(--bg-color);
+  color: #fff; 
 }
 
 nav .links a{
@@ -80,7 +83,7 @@ nav .links a{
   display: block;
   padding: 10px;
   font-weight: bold;
-  color: var(--text-color);
+  color: #fff;
   text-decoration: none;
   text-transform: capitalize;
   transition: all .4s ease-in-out;
@@ -105,7 +108,7 @@ nav .toggleBar{
   top: 50%;
   right: 5%;
   transform: translateY(-50%);
-  color: var(--text-color);
+  color: #fff;
   cursor: pointer;
 }
 nav .toggleBar .bar{
@@ -126,7 +129,7 @@ nav .toggleBar .bar{
   animation: slideTop 1s ease forwards;
 }
 .home_content {
-  background-color:var(--background-main-color);
+  background-color: #f2f2f2;
   padding: 40px; 
   
   text-align: center;
@@ -199,7 +202,7 @@ nav .toggleBar .bar{
   margin: 0 10px;
   text-decoration: none;
   background: linear-gradient(45deg,#ff64a7,#4b4dc3);
-  color:white;
+  color:var(--text-color);
   font-size: 24px;
   border-radius:50%;
   animation: slideTop 1s ease forwards;
@@ -292,7 +295,7 @@ nav .toggleBar .bar{
  
 
 .services {
-  background-color: var(--background-main-color);
+  background-color: #f2f2f2;
   padding: 50px 0;
   text-align: center;
 }
@@ -312,7 +315,7 @@ nav .toggleBar .bar{
 }
 
 .service-box {
-  background-color: var(--background-main-color;
+  background-color: #f2f2f2;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -330,7 +333,7 @@ nav .toggleBar .bar{
 }
 .read-more-btn {
   display: inline-block;
-  background-color: var(--button-color);
+  background-color: var(--bg-color);
   color: var(--text-color);
   padding: 8px 15px;
   border: none;
@@ -339,9 +342,9 @@ nav .toggleBar .bar{
   transition: background-color 0.3s ease;
 }
 
-/*.read-more-btn:hover {
-  background-color: var(--button-hover);
-}*/
+.read-more-btn:hover {
+  background-color: var(--bg-color);
+}
 
 
 
@@ -423,7 +426,7 @@ nav .toggleBar .bar{
 .about-me-container {
   max-width: 600px;
   margin: 50px auto;
-  background-color: var(--background-main-color);
+  background-color: #f2f2f2;
   line-height: 1.8em;
   padding: 20px;
   border-radius: 8px;
@@ -458,16 +461,16 @@ p {
 
 .read-more-btn a {
   text-decoration: none;
-  background-color: var(--button-color);
+  background-color: var(--bg-color);
   color: var(--text-color);
   padding: 10px 20px;
   border-radius: 5px;
   
 }
 
-/*.read-more-btn a:hover {
+/* .read-more-btn a:hover {
   background-color: var(--button-hover);
-}*/
+} */
 
 
 
@@ -493,7 +496,7 @@ p {
 
 .form_container,
 .map_container {
-  background-color: var(--background-main-color);
+  background-color: #f2f2f2;
   padding: 20px;
   border-radius: 8px;
 }
@@ -517,7 +520,7 @@ p {
     border: 2px solid var(--button-color);
 }
 .submit-btn {
-  background-color: var(--button-color);
+  background-color: var(--bg-color);
   color: var(--text-color);
   font-weight: 600;
   padding: 10px 90px;
@@ -620,7 +623,7 @@ p {
       margin-top: 5vh; 
     }
     .submit-btn {
-      background-color: var(--bg-color);
+      background-color: var(--button-color);
       color: var(--text-color);
       font-weight: 600;
       padding: 10px 20px;
@@ -630,9 +633,9 @@ p {
       transition: background-color 0.3s ease;
     }
     
-    /*.submit-btn:hover {
+    .submit-btn:hover {
       background-color: var(--button-hover);
-    }*/
+    }
 
   }
 

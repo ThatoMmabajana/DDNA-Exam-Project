@@ -523,7 +523,7 @@ p {
 
 .form_input input:hover,
 .form_input textarea:hover {
-    border: 2px solid var(--button-color);
+    border: 2px solid var(--bg-color);
 }
 .submit-btn {
   background-color: var(--bg-color);
@@ -629,7 +629,7 @@ p {
       margin-top: 5vh; 
     }
     .submit-btn {
-      background-color: var(--button-color);
+      background-color: var(--bg-color);
       color: var(--second-text-color);
       font-weight: 600;
       padding: 10px 20px;
@@ -639,9 +639,9 @@ p {
       transition: background-color 0.3s ease;
     }
     
-    .submit-btn:hover {
+    /*.submit-btn:hover {
       background-color: var(--button-hover);
-    }
+    }*/
 
   }
 

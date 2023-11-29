@@ -9,7 +9,7 @@
   
 }
 body{
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
 }
 :root{
   --background-main-color:#fff;
@@ -18,9 +18,9 @@ body{
   --bg-color:#25dfbe ;
   --second-bg-color:#ff64a7 ;
   --text-color: #fff ;
-  --second-text-color: white ;
-  --heading-one: #1ef7ec ;
---button-color: #61a3a0 ;
+/*   --second-text-color: white ; */
+/*   --heading-one: #1ef7ec ; */
+/* --button-color: #61a3a0 ; */
  
 }
 nav{
@@ -68,7 +68,7 @@ nav .links li:hover {
   border: none;
   border-radius: 4px;
   background: var(--button-hover);
-  color: #fff; 
+  color: var(--text-color); 
 }
 nav .links a{
   float: right;
@@ -76,7 +76,7 @@ nav .links a{
   margin-left: 15px;
   padding: 10px;
   font-weight: bold;
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   text-transform: capitalize;
   transition: all .4s ease-in-out;
@@ -123,12 +123,12 @@ nav .toggleBar .bar{
   animation: slideTop 1s ease forwards;
 }
 .home_content {
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
   padding: 40px; 
   text-align: center;
 }
 .home_content h1 {
-  color: var(--heading-one);
+  color: var(--bg-color);
   margin-top:50px;
   margin-bottom: 7px; 
 }
@@ -155,7 +155,7 @@ nav .toggleBar .bar{
   margin-top: 16px; 
 }
 .social_icon {
-  color: var(--second-text-color);
+  color: var(--text-color);
   font-size: 24px;
   margin-right: 12px;
   transition: box-shadow 0.3s ease; 
@@ -250,12 +250,12 @@ nav .toggleBar .bar{
 /* services */
  
 .services {
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
 /*   padding: 50px 0; */
   text-align: center;
 }
 .services-heading {
-  color: var(--heading-one);
+  color: var(--bg-color);
 }
 .service-box h3{
   color:var(--second-bg-color);
@@ -268,7 +268,7 @@ nav .toggleBar .bar{
  
 }
 .service-box {
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -313,8 +313,8 @@ nav .toggleBar .bar{
   top: calc(100% + 8px); 
   left: 50%;
   transform: translateX(-50%);
-  background-color: #4b4dc3; 
-  color:#4b4dc3; 
+  background-color: var(--button-hover); 
+  color:var(--button-hover); 
   padding: 8px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -328,14 +328,14 @@ nav .toggleBar .bar{
 .about-me-container {
   max-width: 600px;
   margin: 50px auto;
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
   line-height: 1.8em;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h1 {
-  color: var(--heading-one);
+  color: var(--bg-color);
   text-align: center;
   margin-bottom:30px;
 }
@@ -374,7 +374,7 @@ p {
 }
 .contact_heading {
   margin-bottom: 50px;
-  color: var(--heading-one);
+  color: var(--bg-color);
 }
 .contact_container {
   display: grid;
@@ -383,7 +383,7 @@ p {
 }
 .form_container,
 .map_container {
-  background-color: #f2f2f2;
+  background-color: var(--background-main-color);
   padding: 20px;
   border-radius: 8px;
 }
@@ -395,13 +395,13 @@ p {
 .form_input textarea {
   width:calc(100% - 20px) ;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--bg-color);
   border-radius: 5px;
   
 }
 .form_input input:hover,
 .form_input textarea:hover {
-    border: 2px solid var(--button-color);
+    border: 2px solid var(--bg-color);
 }
 .submit-btn {
   background-color: var(--nav-background-color);
@@ -586,8 +586,8 @@ p {
       margin-top: 5vh; 
     }
     .submit-btn {
-      background-color: var(--button-color);
-      color: var(--second-text-color);
+      background-color: var(--nav-background-color);
+      color: var(--text-color);
       font-weight: 600;
       padding: 10px 20px;
       border: none;

@@ -67,7 +67,7 @@ nav .links li{
 nav .links li:hover {
   border: none;
   border-radius: 4px;
-  background: #61a3a0;
+  background: var(--button-hover);
   color: #fff; 
 }
 nav .links a{
@@ -83,11 +83,15 @@ nav .links a{
   letter-spacing: 1px;
   animation: slideTop .5s ease forwards;
 }
-.links a:hover{
+/* .links a:hover{
   color: var(--button-hover);
-}
+} */
 .links a.active{
   color:var(--button-hover)
+}
+
+.links a.active:hover{
+    color:var(--text-color)
 }
 #nav-toggle{
   position: relative;

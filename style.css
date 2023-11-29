@@ -110,7 +110,7 @@ nav .toggleBar{
 nav .toggleBar .bar{
   width: 25px;
   height: 3px;
-  background: var(--button-color);
+  background: var(--bg-color);
   margin: 5px;
   border-radius: 10px;
   transition: all .3s ease-in-out;
